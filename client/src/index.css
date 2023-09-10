@@ -1,0 +1,69 @@
+h3{
+  font-family: italic;
+  color: #707070;
+}
+
+.insidecontent{
+  display: flex;
+  flex-direction:row;
+  align-content: center;
+  text-align: center;
+  
+}
+.topnav{
+  height:80px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  font-weight:bold;
+}
+.logo{
+  margin-left: 50px;
+  margin-top: 25px;
+  display: inline-flex;
+}
+.sidenav{
+  height: 100vh;
+  width: 15%;
+  flex-direction: row;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbutton{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+}
+button{
+  background-color: transparent;
+  border-color: transparent;
+  display: flex;
+  font-size: 16px;
+  padding: 15px 32px;
+  cursor: pointer;
+}
+.feedback{
+  margin-top: 20%;
+  padding-top: 20px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+.bodycontent{
+  display: flex;
+  flex-direction: row;
+}
+.fullcontent{
+  align-items: center;
+  margin-top: 4%;
+  margin-left: 10%;
+}
+.sub-but{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
